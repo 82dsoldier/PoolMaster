@@ -1,0 +1,20 @@
+<div fxLayout="column">
+    <div fxLayout="row">
+        <div fxFlex="5"></div>
+        <div fxFlex="90" fxLayoutGap="10px">
+            <h4>Team Info</h4>
+            <mat-form-field>
+                <label>Name</label>
+                <input matInput [formControl]="teamFormGroup.controls.name">
+            </mat-form-field>
+            <mat-form-field>
+                <label>Team #</label>
+                <input matInput [formControl]="teamFormGroup.controls.number">
+            </mat-form-field>
+            <pm-select-with-search></pm-select-with-search>
+        </div>
+    </div>
+    <div fxFlex="5">
+        <button mat-raised-button color="primary" (click)="onSave()" [disabled]="disabled">Save</button>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<mat-toolbar>
+  <button mat-icon-button [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item [matMenuTriggerFor]="config">Configuration</button>
+  </mat-menu>
+  <mat-menu #config="matMenu">
+    <button mat-menu-item routerLink="/teams">Teams</button>
+    <button mat-menu-item routerLink="/players">Players</button>
+    <button mat-menu-item routerLink="/scoreConfig">Score Config</button>
+  </mat-menu> 
+  <span>Scorekeeper</span>
+  <span class="spacer"></span>
+  <button mat-icon-button>
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button mat-icon-button>
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>
+<router-outlet></router-outlet>

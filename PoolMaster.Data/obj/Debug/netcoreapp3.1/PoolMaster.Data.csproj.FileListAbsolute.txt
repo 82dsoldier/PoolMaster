@@ -1,0 +1,9 @@
+D:\Source\PoolMaster\PoolMaster.Data\bin\Debug\netcoreapp3.1\PoolMaster.Data.deps.json
+D:\Source\PoolMaster\PoolMaster.Data\bin\Debug\netcoreapp3.1\PoolMaster.Data.dll
+D:\Source\PoolMaster\PoolMaster.Data\bin\Debug\netcoreapp3.1\PoolMaster.Data.pdb
+D:\Source\PoolMaster\PoolMaster.Data\obj\Debug\netcoreapp3.1\PoolMaster.Data.csprojAssemblyReference.cache
+D:\Source\PoolMaster\PoolMaster.Data\obj\Debug\netcoreapp3.1\PoolMaster.Data.AssemblyInfoInputs.cache
+D:\Source\PoolMaster\PoolMaster.Data\obj\Debug\netcoreapp3.1\PoolMaster.Data.AssemblyInfo.cs
+D:\Source\PoolMaster\PoolMaster.Data\obj\Debug\netcoreapp3.1\PoolMaster.Data.csproj.CoreCompileInputs.cache
+D:\Source\PoolMaster\PoolMaster.Data\obj\Debug\netcoreapp3.1\PoolMaster.Data.dll
+D:\Source\PoolMaster\PoolMaster.Data\obj\Debug\netcoreapp3.1\PoolMaster.Data.pdb
