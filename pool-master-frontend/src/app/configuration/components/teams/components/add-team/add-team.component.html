@@ -11,7 +11,10 @@
                 <label>Team #</label>
                 <input matInput [formControl]="teamFormGroup.controls.number">
             </mat-form-field>
-            <pm-select-with-search></pm-select-with-search>
+            <mat-form-field>
+                <label>Team Captain</label>
+                <pm-select-with-search [options]="players"></pm-select-with-search>
+            </mat-form-field>
         </div>
     </div>
     <div fxFlex="5">

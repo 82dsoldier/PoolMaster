@@ -1,8 +1,5 @@
-<mat-form-field>
-    <mat-label>{{label}}</mat-label>
-    <mat-select>
-        <input [placeholder]="placeholder" matInput type="text" [keyup]="onKeyUp($event.target.value)">
-        <mat-option></mat-option>
-        <mat-option *ngFor="let option of options" [value]="option.value">{{option.name}}</mat-option>
-    </mat-select>
-</mat-form-field>
+<mat-select [formControl]="ctl">
+    <input matInput type="text" (keyup)="onKeyUp($event.target.value)">
+    <mat-option></mat-option>
+    <mat-option *ngFor="let option of options" [value]="option.value">{{option.name}}</mat-option>
+</mat-select>

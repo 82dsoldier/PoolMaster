@@ -20,6 +20,8 @@ import { TeamsComponent } from './configuration/components/teams/teams.component
 import { PlayersComponent } from './configuration/components/players/players.component';
 import { ScoreConfigComponent } from './configuration/components/score-config/score-config.component';
 import { AddTeamComponent } from './configuration/components/teams/components/add-team/add-team.component';
+import { SelectWithSearchComponent } from './common/components/select-with-search/select-with-search.component';
+
 
 
 @NgModule({
@@ -28,7 +30,8 @@ import { AddTeamComponent } from './configuration/components/teams/components/ad
     TeamsComponent,
     PlayersComponent,
     ScoreConfigComponent,
-    AddTeamComponent
+    AddTeamComponent,
+    SelectWithSearchComponent
   ],
   imports: [
     BrowserModule,
