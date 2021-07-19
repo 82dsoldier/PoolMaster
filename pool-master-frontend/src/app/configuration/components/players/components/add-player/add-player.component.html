@@ -1,0 +1,27 @@
+<div fxLayout="column">
+    <div fxLayout="row">
+        <div fxLayoutGap="10px">
+            <h4>{{operation}} Player</h4>
+            <mat-form-field>
+                <label>Name</label>
+                <input matInput [formControl]="playerFormGroup.controls.name">
+            </mat-form-field>
+            <mat-form-field>
+                <label>Player #</label>
+                <input matInput [formControl]="playerFormGroup.controls.number">
+            </mat-form-field>
+            <mat-form-field>
+                <label>Skill Level</label>
+                <mat-select [formControl]="playerFormGroup.controls.skillLevel">
+                    <mat-option *ngFor="let skillLevel of skillLevels" [value]="skillLevel.id">{{skillLevel.name}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+    </div>
+    <div fxLayout="row">
+        <div fxFlex="5">
+            <button mat-raised-button color="primary" (click)="onSave()" [disabled]="disabled">Save</button>
+        </div>
+    </div>
+</div>

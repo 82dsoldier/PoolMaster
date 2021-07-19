@@ -8,8 +8,9 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace PoolMaster.Api.Controllers {
+	[Route("[controller]")]
 	public class ScoreConfigController : Controller {
-		private IScoreConfigService _service;
+		private readonly IScoreConfigService _service;
 		public ScoreConfigController(IScoreConfigService service) {
 			_service = service;
 		}

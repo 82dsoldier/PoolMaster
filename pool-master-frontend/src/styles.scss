@@ -1,6 +1,11 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
 .container {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.spacer {
+    flex: 1 1 auto;
 }

@@ -21,8 +21,8 @@ import { PlayersComponent } from './configuration/components/players/players.com
 import { ScoreConfigComponent } from './configuration/components/score-config/score-config.component';
 import { AddTeamComponent } from './configuration/components/teams/components/add-team/add-team.component';
 import { SelectWithSearchComponent } from './common/components/select-with-search/select-with-search.component';
-
-
+import { AddPlayerComponent } from './configuration/components/players/components/add-player/add-player.component';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -31,7 +31,8 @@ import { SelectWithSearchComponent } from './common/components/select-with-searc
     PlayersComponent,
     ScoreConfigComponent,
     AddTeamComponent,
-    SelectWithSearchComponent
+    SelectWithSearchComponent,
+    AddPlayerComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +51,8 @@ import { SelectWithSearchComponent } from './common/components/select-with-searc
     MatToolbarModule,
     RouterModule,
     AppRoutingModule,
-    MatSelectModule
+    MatSelectModule,
+    MatTableModule
   ],
   providers: [
     {
